@@ -1,0 +1,467 @@
+fileFormatVersion: 2
+guid: da4de363ec8b4bf41b7db06f7d8b6c03
+timeCreated: 1460089650
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: RobroArm_L
+    100004: RobroArm_L_001
+    100006: RobroChest
+    100008: RobroFoot_L
+    100010: RobroFoot_L_001
+    100012: RobroHead
+    100014: RobroLeg_L
+    100016: RobroLeg_L_001
+    100018: RobroPelvis
+    100020: RobroArm_R
+    100022: RobroFoot_R
+    100024: RobroLeg_R
+    100026: armature
+    100028: body
+    100030: foot_L
+    100032: foot_R
+    100034: hand_L
+    100036: hand_R
+    100038: head
+    100040: leg_L
+    100042: leg_R
+    100044: root
+    100046: shoulder_L
+    100048: shoulder_R
+    400000: //RootNode
+    400002: RobroArm_L
+    400004: RobroArm_L_001
+    400006: RobroChest
+    400008: RobroFoot_L
+    400010: RobroFoot_L_001
+    400012: RobroHead
+    400014: RobroLeg_L
+    400016: RobroLeg_L_001
+    400018: RobroPelvis
+    400020: RobroArm_R
+    400022: RobroFoot_R
+    400024: RobroLeg_R
+    400026: armature
+    400028: body
+    400030: foot_L
+    400032: foot_R
+    400034: hand_L
+    400036: hand_R
+    400038: head
+    400040: leg_L
+    400042: leg_R
+    400044: root
+    400046: shoulder_L
+    400048: shoulder_R
+    2300000: RobroArm_L
+    2300002: RobroArm_L_001
+    2300004: RobroChest
+    2300006: RobroFoot_L
+    2300008: RobroFoot_L_001
+    2300010: RobroHead
+    2300012: RobroLeg_L
+    2300014: RobroLeg_L_001
+    2300016: RobroPelvis
+    2300018: RobroArm_R
+    2300020: RobroFoot_R
+    2300022: RobroLeg_R
+    3300000: RobroArm_L
+    3300002: RobroArm_L_001
+    3300004: RobroChest
+    3300006: RobroFoot_L
+    3300008: RobroFoot_L_001
+    3300010: RobroHead
+    3300012: RobroLeg_L
+    3300014: RobroLeg_L_001
+    3300016: RobroPelvis
+    3300018: RobroArm_R
+    3300020: RobroFoot_R
+    3300022: RobroLeg_R
+    4300000: RobroFoot_L_001
+    4300002: RobroArm_L_001
+    4300004: RobroLeg_L_001
+    4300006: RobroPelvis
+    4300008: RobroLeg_L
+    4300010: RobroHead
+    4300012: RobroArm_L
+    4300014: RobroFoot_L
+    4300016: RobroChest
+    4300018: RobroFoot_R
+    4300020: RobroArm_R
+    4300022: RobroLeg_R
+    7400000: Default Take
+    7400002: Attack1
+    7400004: move
+    7400006: idle
+    9500000: //RootNode
+    13700000: RobroArm_L
+    13700002: RobroArm_L_001
+    13700004: RobroChest
+    13700006: RobroFoot_L
+    13700008: RobroFoot_L_001
+    13700010: RobroHead
+    13700012: RobroLeg_L
+    13700014: RobroLeg_L_001
+    13700016: RobroPelvis
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleRotations: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Default Take
+      takeName: Default Take
+      firstFrame: 0
+      lastFrame: 249
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: armature
+        weight: 1
+      - path: armature/root
+        weight: 1
+      - path: armature/root/body
+        weight: 1
+      - path: armature/root/body/head
+        weight: 1
+      - path: armature/root/body/shoulder_L
+        weight: 1
+      - path: armature/root/body/shoulder_L/hand_L
+        weight: 1
+      - path: armature/root/body/shoulder_R
+        weight: 1
+      - path: armature/root/body/shoulder_R/hand_R
+        weight: 1
+      - path: armature/root/leg_L
+        weight: 1
+      - path: armature/root/leg_L/foot_R
+        weight: 1
+      - path: armature/root/leg_R
+        weight: 1
+      - path: armature/root/leg_R/foot_L
+        weight: 1
+      - path: RobroArm_L
+        weight: 1
+      - path: RobroArm_L_001
+        weight: 1
+      - path: RobroChest
+        weight: 1
+      - path: RobroFoot_L
+        weight: 1
+      - path: RobroFoot_L_001
+        weight: 1
+      - path: RobroHead
+        weight: 1
+      - path: RobroLeg_L
+        weight: 1
+      - path: RobroLeg_L_001
+        weight: 1
+      - path: RobroPelvis
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Attack1
+      takeName: Attack1
+      firstFrame: 0
+      lastFrame: 29
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events:
+      - time: 0.3505535
+        functionName: FireMissile
+        data: 
+        objectReferenceParameter: {fileID: 11500000, guid: 8392939875cad6345853f5c7bcd6ffa5,
+          type: 3}
+        floatParameter: 0
+        intParameter: 0
+        messageOptions: 0
+      transformMask:
+      - path: 
+        weight: 1
+      - path: armature
+        weight: 1
+      - path: armature/root
+        weight: 1
+      - path: armature/root/body
+        weight: 1
+      - path: armature/root/body/head
+        weight: 1
+      - path: armature/root/body/shoulder_L
+        weight: 1
+      - path: armature/root/body/shoulder_L/hand_L
+        weight: 1
+      - path: armature/root/body/shoulder_R
+        weight: 1
+      - path: armature/root/body/shoulder_R/hand_R
+        weight: 1
+      - path: armature/root/leg_L
+        weight: 1
+      - path: armature/root/leg_L/foot_R
+        weight: 1
+      - path: armature/root/leg_R
+        weight: 1
+      - path: armature/root/leg_R/foot_L
+        weight: 1
+      - path: RobroArm_L
+        weight: 1
+      - path: RobroArm_L_001
+        weight: 1
+      - path: RobroChest
+        weight: 1
+      - path: RobroFoot_L
+        weight: 1
+      - path: RobroFoot_L_001
+        weight: 1
+      - path: RobroHead
+        weight: 1
+      - path: RobroLeg_L
+        weight: 1
+      - path: RobroLeg_L_001
+        weight: 1
+      - path: RobroPelvis
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: move
+      takeName: move
+      firstFrame: 0
+      lastFrame: 1
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: armature
+        weight: 1
+      - path: armature/root
+        weight: 1
+      - path: armature/root/body
+        weight: 1
+      - path: armature/root/body/head
+        weight: 1
+      - path: armature/root/body/shoulder_L
+        weight: 1
+      - path: armature/root/body/shoulder_L/hand_L
+        weight: 1
+      - path: armature/root/body/shoulder_R
+        weight: 1
+      - path: armature/root/body/shoulder_R/hand_R
+        weight: 1
+      - path: armature/root/leg_L
+        weight: 1
+      - path: armature/root/leg_L/foot_R
+        weight: 1
+      - path: armature/root/leg_R
+        weight: 1
+      - path: armature/root/leg_R/foot_L
+        weight: 1
+      - path: RobroArm_L
+        weight: 1
+      - path: RobroArm_L_001
+        weight: 1
+      - path: RobroChest
+        weight: 1
+      - path: RobroFoot_L
+        weight: 1
+      - path: RobroFoot_L_001
+        weight: 1
+      - path: RobroHead
+        weight: 1
+      - path: RobroLeg_L
+        weight: 1
+      - path: RobroLeg_L_001
+        weight: 1
+      - path: RobroPelvis
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: idle
+      takeName: idle
+      firstFrame: 0
+      lastFrame: 1
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: armature
+        weight: 1
+      - path: armature/root
+        weight: 1
+      - path: armature/root/body
+        weight: 1
+      - path: armature/root/body/head
+        weight: 1
+      - path: armature/root/body/shoulder_L
+        weight: 1
+      - path: armature/root/body/shoulder_L/hand_L
+        weight: 1
+      - path: armature/root/body/shoulder_R
+        weight: 1
+      - path: armature/root/body/shoulder_R/hand_R
+        weight: 1
+      - path: armature/root/leg_L
+        weight: 1
+      - path: armature/root/leg_L/foot_R
+        weight: 1
+      - path: armature/root/leg_R
+        weight: 1
+      - path: armature/root/leg_R/foot_L
+        weight: 1
+      - path: RobroArm_L
+        weight: 1
+      - path: RobroArm_L_001
+        weight: 1
+      - path: RobroChest
+        weight: 1
+      - path: RobroFoot_L
+        weight: 1
+      - path: RobroFoot_L_001
+        weight: 1
+      - path: RobroHead
+        weight: 1
+      - path: RobroLeg_L
+        weight: 1
+      - path: RobroLeg_L_001
+        weight: 1
+      - path: RobroPelvis
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

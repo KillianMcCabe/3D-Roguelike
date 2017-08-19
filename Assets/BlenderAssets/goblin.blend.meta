@@ -1,0 +1,615 @@
+fileFormatVersion: 2
+guid: 89da0a73fdd087f43b7f6a75ff75c3f5
+timeCreated: 1459108760
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: Armature
+    100002: Body
+    100004: Foot_L
+    100006: Foot_R
+    100008: Goblin
+    100010: //RootNode
+    100012: Hand_L
+    100014: Hand_R
+    100016: Head
+    100018: Hip_L
+    100020: Hip_R
+    100022: LowerArm_L
+    100024: LowerArm_R
+    100026: LowerBody
+    100028: LowerLeg_L
+    100030: LowerLeg_R
+    100032: Neck
+    100034: Shoulder_L
+    100036: Shoulder_R
+    100038: Toes_L
+    100040: Toes_R
+    100042: UpperArm_L
+    100044: UpperArm_R
+    100046: UpperLeg_L
+    100048: UpperLeg_R
+    400000: Armature
+    400002: Body
+    400004: Foot_L
+    400006: Foot_R
+    400008: Goblin
+    400010: //RootNode
+    400012: Hand_L
+    400014: Hand_R
+    400016: Head
+    400018: Hip_L
+    400020: Hip_R
+    400022: LowerArm_L
+    400024: LowerArm_R
+    400026: LowerBody
+    400028: LowerLeg_L
+    400030: LowerLeg_R
+    400032: Neck
+    400034: Shoulder_L
+    400036: Shoulder_R
+    400038: Toes_L
+    400040: Toes_R
+    400042: UpperArm_L
+    400044: UpperArm_R
+    400046: UpperLeg_L
+    400048: UpperLeg_R
+    4300000: Goblin
+    7400000: Default Take
+    7400002: Attack
+    7400004: Run
+    7400006: Search
+    7400008: T-Pose
+    7400010: Walk
+    9500000: //RootNode
+    11100000: //RootNode
+    13700000: Goblin
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleRotations: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 3
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Default Take
+      takeName: Default Take
+      firstFrame: 0
+      lastFrame: 23
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/Body
+        weight: 1
+      - path: Armature/Body/Neck
+        weight: 1
+      - path: Armature/Body/Neck/Head
+        weight: 1
+      - path: Armature/Body/Shoulder_L
+        weight: 1
+      - path: Armature/Body/Shoulder_L/UpperArm_L
+        weight: 1
+      - path: Armature/Body/Shoulder_L/UpperArm_L/LowerArm_L
+        weight: 1
+      - path: Armature/Body/Shoulder_L/UpperArm_L/LowerArm_L/Hand_L
+        weight: 1
+      - path: Armature/Body/Shoulder_R
+        weight: 1
+      - path: Armature/Body/Shoulder_R/UpperArm_R
+        weight: 1
+      - path: Armature/Body/Shoulder_R/UpperArm_R/LowerArm_R
+        weight: 1
+      - path: Armature/Body/Shoulder_R/UpperArm_R/LowerArm_R/Hand_R
+        weight: 1
+      - path: Armature/LowerBody
+        weight: 1
+      - path: Armature/LowerBody/Hip_L
+        weight: 1
+      - path: Armature/LowerBody/Hip_L/UpperLeg_L
+        weight: 1
+      - path: Armature/LowerBody/Hip_L/UpperLeg_L/LowerLeg_L
+        weight: 1
+      - path: Armature/LowerBody/Hip_L/UpperLeg_L/LowerLeg_L/Foot_L
+        weight: 1
+      - path: Armature/LowerBody/Hip_L/UpperLeg_L/LowerLeg_L/Foot_L/Toes_L
+        weight: 1
+      - path: Armature/LowerBody/Hip_R
+        weight: 1
+      - path: Armature/LowerBody/Hip_R/UpperLeg_R
+        weight: 1
+      - path: Armature/LowerBody/Hip_R/UpperLeg_R/LowerLeg_R
+        weight: 1
+      - path: Armature/LowerBody/Hip_R/UpperLeg_R/LowerLeg_R/Foot_R
+        weight: 1
+      - path: Armature/LowerBody/Hip_R/UpperLeg_R/LowerLeg_R/Foot_R/Toes_R
+        weight: 1
+      - path: Goblin
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Attack
+      takeName: Attack
+      firstFrame: 0
+      lastFrame: 20
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events:
+      - time: 0.5084746
+        functionName: BasicAttackDealDamage
+        data: 
+        objectReferenceParameter: {fileID: 11500000, guid: 44192c5a9976cf5428421b4f42fa1789,
+          type: 3}
+        floatParameter: 0
+        intParameter: 0
+        messageOptions: 0
+      - time: 0.9016949
+        functionName: BasicAttackDealDamage
+        data: 
+        objectReferenceParameter: {fileID: 11500000, guid: 44192c5a9976cf5428421b4f42fa1789,
+          type: 3}
+        floatParameter: 0
+        intParameter: 0
+        messageOptions: 0
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/Body
+        weight: 1
+      - path: Armature/Body/Neck
+        weight: 1
+      - path: Armature/Body/Neck/Head
+        weight: 1
+      - path: Armature/Body/Shoulder_L
+        weight: 1
+      - path: Armature/Body/Shoulder_L/UpperArm_L
+        weight: 1
+      - path: Armature/Body/Shoulder_L/UpperArm_L/LowerArm_L
+        weight: 1
+      - path: Armature/Body/Shoulder_L/UpperArm_L/LowerArm_L/Hand_L
+        weight: 1
+      - path: Armature/Body/Shoulder_R
+        weight: 1
+      - path: Armature/Body/Shoulder_R/UpperArm_R
+        weight: 1
+      - path: Armature/Body/Shoulder_R/UpperArm_R/LowerArm_R
+        weight: 1
+      - path: Armature/Body/Shoulder_R/UpperArm_R/LowerArm_R/Hand_R
+        weight: 1
+      - path: Armature/LowerBody
+        weight: 1
+      - path: Armature/LowerBody/Hip_L
+        weight: 1
+      - path: Armature/LowerBody/Hip_L/UpperLeg_L
+        weight: 1
+      - path: Armature/LowerBody/Hip_L/UpperLeg_L/LowerLeg_L
+        weight: 1
+      - path: Armature/LowerBody/Hip_L/UpperLeg_L/LowerLeg_L/Foot_L
+        weight: 1
+      - path: Armature/LowerBody/Hip_L/UpperLeg_L/LowerLeg_L/Foot_L/Toes_L
+        weight: 1
+      - path: Armature/LowerBody/Hip_R
+        weight: 1
+      - path: Armature/LowerBody/Hip_R/UpperLeg_R
+        weight: 1
+      - path: Armature/LowerBody/Hip_R/UpperLeg_R/LowerLeg_R
+        weight: 1
+      - path: Armature/LowerBody/Hip_R/UpperLeg_R/LowerLeg_R/Foot_R
+        weight: 1
+      - path: Armature/LowerBody/Hip_R/UpperLeg_R/LowerLeg_R/Foot_R/Toes_R
+        weight: 1
+      - path: Goblin
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Run
+      takeName: Run
+      firstFrame: 0
+      lastFrame: 24
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/Body
+        weight: 1
+      - path: Armature/Body/Neck
+        weight: 1
+      - path: Armature/Body/Neck/Head
+        weight: 1
+      - path: Armature/Body/Shoulder_L
+        weight: 1
+      - path: Armature/Body/Shoulder_L/UpperArm_L
+        weight: 1
+      - path: Armature/Body/Shoulder_L/UpperArm_L/LowerArm_L
+        weight: 1
+      - path: Armature/Body/Shoulder_L/UpperArm_L/LowerArm_L/Hand_L
+        weight: 1
+      - path: Armature/Body/Shoulder_R
+        weight: 1
+      - path: Armature/Body/Shoulder_R/UpperArm_R
+        weight: 1
+      - path: Armature/Body/Shoulder_R/UpperArm_R/LowerArm_R
+        weight: 1
+      - path: Armature/Body/Shoulder_R/UpperArm_R/LowerArm_R/Hand_R
+        weight: 1
+      - path: Armature/LowerBody
+        weight: 1
+      - path: Armature/LowerBody/Hip_L
+        weight: 1
+      - path: Armature/LowerBody/Hip_L/UpperLeg_L
+        weight: 1
+      - path: Armature/LowerBody/Hip_L/UpperLeg_L/LowerLeg_L
+        weight: 1
+      - path: Armature/LowerBody/Hip_L/UpperLeg_L/LowerLeg_L/Foot_L
+        weight: 1
+      - path: Armature/LowerBody/Hip_L/UpperLeg_L/LowerLeg_L/Foot_L/Toes_L
+        weight: 1
+      - path: Armature/LowerBody/Hip_R
+        weight: 1
+      - path: Armature/LowerBody/Hip_R/UpperLeg_R
+        weight: 1
+      - path: Armature/LowerBody/Hip_R/UpperLeg_R/LowerLeg_R
+        weight: 1
+      - path: Armature/LowerBody/Hip_R/UpperLeg_R/LowerLeg_R/Foot_R
+        weight: 1
+      - path: Armature/LowerBody/Hip_R/UpperLeg_R/LowerLeg_R/Foot_R/Toes_R
+        weight: 1
+      - path: Goblin
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Search
+      takeName: Search
+      firstFrame: 0
+      lastFrame: 94
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/Body
+        weight: 1
+      - path: Armature/Body/Neck
+        weight: 1
+      - path: Armature/Body/Neck/Head
+        weight: 1
+      - path: Armature/Body/Shoulder_L
+        weight: 1
+      - path: Armature/Body/Shoulder_L/UpperArm_L
+        weight: 1
+      - path: Armature/Body/Shoulder_L/UpperArm_L/LowerArm_L
+        weight: 1
+      - path: Armature/Body/Shoulder_L/UpperArm_L/LowerArm_L/Hand_L
+        weight: 1
+      - path: Armature/Body/Shoulder_R
+        weight: 1
+      - path: Armature/Body/Shoulder_R/UpperArm_R
+        weight: 1
+      - path: Armature/Body/Shoulder_R/UpperArm_R/LowerArm_R
+        weight: 1
+      - path: Armature/Body/Shoulder_R/UpperArm_R/LowerArm_R/Hand_R
+        weight: 1
+      - path: Armature/LowerBody
+        weight: 1
+      - path: Armature/LowerBody/Hip_L
+        weight: 1
+      - path: Armature/LowerBody/Hip_L/UpperLeg_L
+        weight: 1
+      - path: Armature/LowerBody/Hip_L/UpperLeg_L/LowerLeg_L
+        weight: 1
+      - path: Armature/LowerBody/Hip_L/UpperLeg_L/LowerLeg_L/Foot_L
+        weight: 1
+      - path: Armature/LowerBody/Hip_L/UpperLeg_L/LowerLeg_L/Foot_L/Toes_L
+        weight: 1
+      - path: Armature/LowerBody/Hip_R
+        weight: 1
+      - path: Armature/LowerBody/Hip_R/UpperLeg_R
+        weight: 1
+      - path: Armature/LowerBody/Hip_R/UpperLeg_R/LowerLeg_R
+        weight: 1
+      - path: Armature/LowerBody/Hip_R/UpperLeg_R/LowerLeg_R/Foot_R
+        weight: 1
+      - path: Armature/LowerBody/Hip_R/UpperLeg_R/LowerLeg_R/Foot_R/Toes_R
+        weight: 1
+      - path: Goblin
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: T-Pose
+      takeName: T-Pose
+      firstFrame: 0
+      lastFrame: 1
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/Body
+        weight: 1
+      - path: Armature/Body/Neck
+        weight: 1
+      - path: Armature/Body/Neck/Head
+        weight: 1
+      - path: Armature/Body/Shoulder_L
+        weight: 1
+      - path: Armature/Body/Shoulder_L/UpperArm_L
+        weight: 1
+      - path: Armature/Body/Shoulder_L/UpperArm_L/LowerArm_L
+        weight: 1
+      - path: Armature/Body/Shoulder_L/UpperArm_L/LowerArm_L/Hand_L
+        weight: 1
+      - path: Armature/Body/Shoulder_R
+        weight: 1
+      - path: Armature/Body/Shoulder_R/UpperArm_R
+        weight: 1
+      - path: Armature/Body/Shoulder_R/UpperArm_R/LowerArm_R
+        weight: 1
+      - path: Armature/Body/Shoulder_R/UpperArm_R/LowerArm_R/Hand_R
+        weight: 1
+      - path: Armature/LowerBody
+        weight: 1
+      - path: Armature/LowerBody/Hip_L
+        weight: 1
+      - path: Armature/LowerBody/Hip_L/UpperLeg_L
+        weight: 1
+      - path: Armature/LowerBody/Hip_L/UpperLeg_L/LowerLeg_L
+        weight: 1
+      - path: Armature/LowerBody/Hip_L/UpperLeg_L/LowerLeg_L/Foot_L
+        weight: 1
+      - path: Armature/LowerBody/Hip_L/UpperLeg_L/LowerLeg_L/Foot_L/Toes_L
+        weight: 1
+      - path: Armature/LowerBody/Hip_R
+        weight: 1
+      - path: Armature/LowerBody/Hip_R/UpperLeg_R
+        weight: 1
+      - path: Armature/LowerBody/Hip_R/UpperLeg_R/LowerLeg_R
+        weight: 1
+      - path: Armature/LowerBody/Hip_R/UpperLeg_R/LowerLeg_R/Foot_R
+        weight: 1
+      - path: Armature/LowerBody/Hip_R/UpperLeg_R/LowerLeg_R/Foot_R/Toes_R
+        weight: 1
+      - path: Goblin
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Walk
+      takeName: Walk
+      firstFrame: 0
+      lastFrame: 24
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/Body
+        weight: 1
+      - path: Armature/Body/Neck
+        weight: 1
+      - path: Armature/Body/Neck/Head
+        weight: 1
+      - path: Armature/Body/Shoulder_L
+        weight: 1
+      - path: Armature/Body/Shoulder_L/UpperArm_L
+        weight: 1
+      - path: Armature/Body/Shoulder_L/UpperArm_L/LowerArm_L
+        weight: 1
+      - path: Armature/Body/Shoulder_L/UpperArm_L/LowerArm_L/Hand_L
+        weight: 1
+      - path: Armature/Body/Shoulder_R
+        weight: 1
+      - path: Armature/Body/Shoulder_R/UpperArm_R
+        weight: 1
+      - path: Armature/Body/Shoulder_R/UpperArm_R/LowerArm_R
+        weight: 1
+      - path: Armature/Body/Shoulder_R/UpperArm_R/LowerArm_R/Hand_R
+        weight: 1
+      - path: Armature/LowerBody
+        weight: 1
+      - path: Armature/LowerBody/Hip_L
+        weight: 1
+      - path: Armature/LowerBody/Hip_L/UpperLeg_L
+        weight: 1
+      - path: Armature/LowerBody/Hip_L/UpperLeg_L/LowerLeg_L
+        weight: 1
+      - path: Armature/LowerBody/Hip_L/UpperLeg_L/LowerLeg_L/Foot_L
+        weight: 1
+      - path: Armature/LowerBody/Hip_L/UpperLeg_L/LowerLeg_L/Foot_L/Toes_L
+        weight: 1
+      - path: Armature/LowerBody/Hip_R
+        weight: 1
+      - path: Armature/LowerBody/Hip_R/UpperLeg_R
+        weight: 1
+      - path: Armature/LowerBody/Hip_R/UpperLeg_R/LowerLeg_R
+        weight: 1
+      - path: Armature/LowerBody/Hip_R/UpperLeg_R/LowerLeg_R/Foot_R
+        weight: 1
+      - path: Armature/LowerBody/Hip_R/UpperLeg_R/LowerLeg_R/Foot_R/Toes_R
+        weight: 1
+      - path: Goblin
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

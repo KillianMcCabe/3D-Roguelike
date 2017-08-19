@@ -1,0 +1,192 @@
+fileFormatVersion: 2
+guid: e00f9e7866200834080e067dc6aafe63
+timeCreated: 1461771139
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: ui bars_0
+    21300002: ui bars_1
+    21300004: ui bars_2
+    21300006: ui bars_3
+    21300008: ui bars_4
+    21300010: ui bars_5
+    21300012: ui bars_6
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: ui bars_0
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 1878
+        width: 1113
+        height: 138
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 555.5, y: 69}
+        - {x: -556.5, y: 69}
+        - {x: -556.5, y: -68}
+        - {x: -555.5, y: -69}
+        - {x: 554.5, y: -69}
+        - {x: 556.5, y: -68}
+        - {x: 556.5, y: 67}
+    - name: ui bars_1
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 1773
+        width: 907
+        height: 71
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -451.5, y: 35.5}
+        - {x: -453.5, y: 34.5}
+        - {x: -453.5, y: -33.5}
+        - {x: -452.5, y: -35.5}
+        - {x: 453.5, y: -35.5}
+        - {x: 453.5, y: 34.5}
+        - {x: 452.5, y: 35.5}
+    - name: ui bars_2
+      rect:
+        serializedVersion: 2
+        x: 990
+        y: 1773
+        width: 907
+        height: 71
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -451.5, y: 35.5}
+        - {x: -453.5, y: 34.5}
+        - {x: -453.5, y: -33.5}
+        - {x: -452.5, y: -35.5}
+        - {x: 453.5, y: -35.5}
+        - {x: 453.5, y: 34.5}
+        - {x: 452.5, y: 35.5}
+    - name: ui bars_3
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 1464
+        width: 249
+        height: 249
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -122.5, y: 124.5}
+        - {x: -124.5, y: 123.5}
+        - {x: -124.5, y: -122.5}
+        - {x: -123.5, y: -124.5}
+        - {x: 124.5, y: -124.5}
+        - {x: 124.5, y: 123.5}
+        - {x: 123.5, y: 124.5}
+    - name: ui bars_4
+      rect:
+        serializedVersion: 2
+        x: 386
+        y: 1484
+        width: 218
+        height: 218
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 108, y: 109}
+        - {x: -107, y: 109}
+        - {x: -109, y: 107}
+        - {x: -109, y: -107}
+        - {x: -108, y: -109}
+        - {x: 107, y: -109}
+        - {x: 109, y: -108}
+        - {x: 109, y: 107}
+    - name: ui bars_5
+      rect:
+        serializedVersion: 2
+        x: 693
+        y: 1484
+        width: 218
+        height: 218
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 108, y: 109}
+        - {x: -107, y: 109}
+        - {x: -109, y: 107}
+        - {x: -109, y: -107}
+        - {x: -108, y: -109}
+        - {x: 107, y: -109}
+        - {x: 109, y: -108}
+        - {x: 109, y: 107}
+    - name: ui bars_6
+      rect:
+        serializedVersion: 2
+        x: 931
+        y: 1482
+        width: 218
+        height: 218
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 108, y: 109}
+        - {x: -109, y: 109}
+        - {x: -109, y: -106}
+        - {x: -106, y: -109}
+        - {x: 106, y: -109}
+        - {x: 109, y: -107}
+        - {x: 109, y: 108}
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
